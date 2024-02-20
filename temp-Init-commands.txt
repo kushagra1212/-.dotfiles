@@ -34,5 +34,10 @@ $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 $ tmux source ~/.tmux.conf
 
+# Install fzf
+MacOS 
+  brew install fzf
+
+
 
 
