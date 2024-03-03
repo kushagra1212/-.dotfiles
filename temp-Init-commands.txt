@@ -1,12 +1,23 @@
+# Intall nvim
+sudo apt intall nvim
+
+#Install ZSH
+
+sudo apt install zsh
+zsh --version
+
+# curl or wget should be installed
+# git should be installed (recommended v2.4.11 or higher)
+
 # Install oh-my-zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Install power Level10k
+# Install and Configure power Level10k
 
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-
-echo 'ZSH_THEME="powerlevel10k/powerlevel10k"' >> ~/.zshrc
+echo 'source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+source ~/.zshrc
 p10k configure
 
 # MacOs Iterm2 Powerline fonts
@@ -28,6 +39,9 @@ $ source ~/.zshrc
 # Install Tmux (mcaOS  ) 
 
 brew install tmux
+
+# Intall tmux ( Ubunut )
+sudo apt intall tmux
 
 
 $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
