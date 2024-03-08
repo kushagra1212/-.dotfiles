@@ -53,5 +53,16 @@ MacOS
   brew install fzf
 
 
+# Installing Lazy Vim on Ubunut
+
+sudo apt remove neovim -y
+go to https://github.com/neovim/neovim/releases and download nvim-linux64.tar.gz
+!! Important first make sure ~/.local/bin directory exists 
+mv nvim-linux64.tar.gz ~/.local/bin       
+tar xzvf nvim-linux64.tar.gz    
+- Create Symbolic link
+ ln -s ./nvim-linux64/bin/nvim ./nvim
+make sure pwd of this folder is in the PATH while doing symbolic link
+
 
 
