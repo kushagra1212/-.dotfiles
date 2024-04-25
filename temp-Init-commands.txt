@@ -1,3 +1,12 @@
+#MAC Install home brew
+
+Edit .zshrc file :
+
+nano .zshrc
+The following should be enough :
+
+export PATH="/opt/homebrew/bin:$PATH
+
 # Intall nvim
 sudo apt intall nvim
 
